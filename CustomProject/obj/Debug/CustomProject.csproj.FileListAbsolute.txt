@@ -1,0 +1,4 @@
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\CustomProject\bin\Debug\CustomProject.dll
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\CustomProject\bin\Debug\CustomProject.pdb
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\CustomProject\obj\Debug\CustomProject.dll
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\CustomProject\obj\Debug\CustomProject.pdb

@@ -1,0 +1,12 @@
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\JAMSSourceAndHost\obj\Debug\JAMSSourceAndHost.csprojResolveAssemblyReference.cache
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\JAMSSourceAndHost\bin\Debug\JAMSSourceAndHost.dll
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\JAMSSourceAndHost\bin\Debug\JAMSSourceAndHost.pdb
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\JAMSSourceAndHost\bin\Debug\CustomProject.dll
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\JAMSSourceAndHost\bin\Debug\JAMSHostBase.dll
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\JAMSSourceAndHost\bin\Debug\JAMSShr.dll
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\JAMSSourceAndHost\bin\Debug\CustomProject.pdb
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\JAMSSourceAndHost\bin\Debug\JAMSHostBase.pdb
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\JAMSSourceAndHost\obj\Debug\JAMSSourceAndHost.SourceView.resources
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\JAMSSourceAndHost\obj\Debug\JAMSSourceAndHost.csproj.GenerateResource.Cache
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\JAMSSourceAndHost\obj\Debug\JAMSSourceAndHost.dll
+c:\users\timf.mvp\documents\visual studio 2015\Projects\JAMSSourceAndHost\JAMSSourceAndHost\obj\Debug\JAMSSourceAndHost.pdb
