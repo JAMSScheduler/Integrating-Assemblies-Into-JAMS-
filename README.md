@@ -19,3 +19,30 @@ The zip file consists of two project:
 -Source.cs is a class that will handle the data from the "Source" tab.  It uses the JavaScriptSerializer to get the source and then import and deserialize it.  This is where properties are created that will be used in Host.cs so that the CustomProject dll can be exposed. 
 
 -SourceView.cs is the class that builds the GUI for the Job "Source" tab.  This class will create all of the properties that will be used in the "Source" tab as well as demonstrate where and how we are adding the CustomProject methods into the comboBox used in this example.  This class must implement IEditJobSource      
+
+
+The last step to pull the libraries and also newly created class (JAMSSourceAndHost) into JAMS is to copy the assemblies and move them into JAMS.  When copying the assemblies you will want the following.  
+
+- CustomProject.dll
+- CustomProject.pdb
+- JAMSSourceAndHost.dll
+- JAMSSourceAndHost.pdb
+
+You will paste those in the both directories(You will need to close JAMS and make sure the JAMSScheduler service is stopped): 
+-MVPSI/JAMS/Client
+-MVPSI/JAMS/Scheduler
+*Note*: If you do not create a view for Job Source you only need to paste in the Scheduler
+
+Then you will need to create a job with the "SqlCommand" execution method.  Go to the "Execution" tab in the Execution Method and make sure the following is set: 
+
+-Type: Should be set to "Routine"
+-Routine Location:
+    -Assembly: This will be the name of your assembly mine is JAMSSourceAndHost
+    -Class: This will be the class where IJAMSHost is implemented mine is JAMSSourceAndHost.Host
+-Source Editor: 
+    -Assembly: This will be the name of your assembly min is JAMSSourceAndHost
+    -Class: This will be the class where you're source controls are built mine is JAMSSourceAndHost.SourceView
+    
+You should now be able to attach a Job to this this Execution Method and run this job normally with the exception that you should now have a custom Source Tab with the integrated assembly methods selectable. 
+    
+  
